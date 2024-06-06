@@ -1,0 +1,57 @@
+.slide-bottom {
+	-webkit-animation: slide-bottom 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-bottom 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes slide-bottom {
+      0% {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+      }
+      100% {
+        -webkit-transform: translateY(100px);
+                transform: translateY(100px);
+      }
+    }
+    @keyframes slide-bottom {
+      0% {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+      }
+      100% {
+        -webkit-transform: translateY(100px);
+                transform: translateY(100px);
+      }
+    }
+    .bookEve__image{
+      position: relative;
+    }
+    .event__content{
+      display: inline-block;
+      position: absolute;
+      top: 25%;
+      color: #fff;
+      right: 15%;
+      text-align: center;
+    }
+    .event__content p{
+      background-color: #fff;
+    color: #31cec3;
+    font-family: 'Open Sans', serif;
+    font-size: 30px;
+    font-weight: normal;
+    height: 50px;
+    line-height: 50px;
+    width: 60px;
+    margin-bottom: 0;
+    }
+    .event__content span{
+      background-color: #31cec3;
+      color: #fff;
+      display: inline-block;
+      font-weight: 600;
+      height: 30px;
+      line-height: 30px;
+      width: 60px;
+      text-transform: uppercase;
+  }
